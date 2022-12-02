@@ -5,29 +5,8 @@ import WebSiteNavigation from "./navigation/WebSiteNavigation";
 
 
 
-import ReactGA from 'react-ga';
-const TRACKING_ID = "G-R7XK8HY9R8"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
-
-const BackButtonListener = ({ children }) => {
-  const [pressed, setPressed] = React.useState(false)
-  React.useEffect(() => {
-    window.onpopstate = e => {
-      setPressed(true)
-    };
-  });
- return (
-    <h3>Back button: {pressed.toString()}</h3>
-  );
-};
-
 export default function App()
 {
-    useEffect(() => {
-      ReactGA.pageview(window.location.pathname + window.location.search);
-      
-    }, []);
-
     return(
         <Router>
             <WebSiteNavigation/>
