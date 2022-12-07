@@ -30,10 +30,13 @@ export default function Portafolio()
                     title='Sistema de Resenas'
                     partner='Anzoátegui Te Enamora'
                     description='El Sistema de Reseñas de Anzoátegui Te Enamora, es una plataforma que ayuda a compartir información valiosa sobre un establecimiento, con otros usuarios que buscan un producto o servicio similar.'
+                    link='https://anzteenamora.com/'
                 />
                 <ProjectCard
                     src={resenas}
                     title='Cashless'
+                    partner='Desarrollo propio'
+                    description='Es un sistema de pago libre de efectivo, que sirve para optimizar y brindar mayor seguridad en las transacciones financieras en eventos, clubes, centros deportivos, entre otros.'
                 />
                 <ProjectCard
                     src={resenas}

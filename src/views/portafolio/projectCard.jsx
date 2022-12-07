@@ -82,7 +82,7 @@ export default function ProjectCard(props)
                     <Typography> <span style={{fontWeight:'bold'}}>- Descripcion: </span>{props.description}</Typography>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={toggleDialog}>Visita el sitio web</Button>
+                    <Button href={props.link} target='_blank'>Visita el sitio web</Button>
                 </DialogActions>
             </Dialog>
 

@@ -7,6 +7,7 @@ import Services from './services';
 import ATE_LOGO from '../assets/images/allies/ATE_LOGO.png'
 import CIVO_LOGO from '../assets/images/allies/CIVO_LOGO.jpg'
 import Portafolio from './portafolio';
+import Technologies from './services/technologies';
 
 export default function Home()
 {
@@ -58,9 +59,12 @@ export default function Home()
 
             {/**Servicios */}
             <Services/>
+            <Technologies/>
 
             {/**Portafolio */}
             <Portafolio/>
+
+            
         </Box>
     )
 }
