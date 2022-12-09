@@ -18,7 +18,8 @@ const lightTheme = {
             light: '#0599DE',
             main : '#0a0a0a',//#0a0a0a  232F3E  1a1a1a
             dark: '#0076B6',
-            contrastText:'#FFF'
+            contrastText:'#FFF',
+            contrastAux:'#727375'
         },
         secondary:
         {

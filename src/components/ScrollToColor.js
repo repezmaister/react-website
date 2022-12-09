@@ -18,7 +18,8 @@ const ScrollHandler = props => {
       color: trigger ? theme.palette.primary.contrastText : "white",
       transition: trigger ? "0.3s" : "0.5s",
       boxShadow: "none",
-      padding: "10px 0px"
+      padding: "10px 0px",
+      borderRadius:0
     }
   });
 };

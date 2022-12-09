@@ -27,7 +27,7 @@ export default function Services()
                     <Divider sx={{height:3,bgcolor:'secondary.main',width:'14%',mb:3}}/>
                     
                     
-                    <Typography>
+                    <Typography variant='h6' component='p' color='primary.contrastAux'>
                         En Technological Sharks nos centramos en crear soluciones tecnológicas que se adaptan 
                         a tus necesidades. Somos especialistas en el desarrollo de software personalizado, 
                         desarrollo web, desarrollo de aplicaciones móviles (Android y iOS), 

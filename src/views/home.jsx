@@ -8,6 +8,7 @@ import ATE_LOGO from '../assets/images/allies/ATE_LOGO.png'
 import CIVO_LOGO from '../assets/images/allies/CIVO_LOGO.jpg'
 import Portafolio from './portafolio';
 import Technologies from './services/technologies';
+import AboutUs from './aboutUs';
 
 export default function Home()
 {
@@ -63,7 +64,6 @@ export default function Home()
 
             {/**Portafolio */}
             <Portafolio/>
-
             
         </Box>
     )
