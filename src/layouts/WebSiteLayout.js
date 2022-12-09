@@ -6,6 +6,7 @@ import WebsiteAppBar from "../components/WebsiteAppBar";
 import ColorModeContext from '../themes/colorModeContext';
 import lightTheme from "../themes/lightTheme";
 import darkTheme from "../themes/darkTheme";
+import Footer from "../views/footer";
 
 
 export function WebSiteLayout(props)
@@ -43,6 +44,7 @@ export function WebSiteLayout(props)
             <ThemeProvider theme={theme}>
                 <WebsiteAppBar mode={mode}/>
                 {props.children}
+                <Footer/>
             </ThemeProvider>
         </ColorModeContext.Provider>
     )
